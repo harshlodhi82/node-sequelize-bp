@@ -1,2 +1,2 @@
 # node-sequelize-bp
-This is nodeJs + expressJs + sequelize Boilerplate 
+This is nodeJs + expressJs + sequelize Boilerplate by Harsh

@@ -12,13 +12,19 @@ const catch404 = (req, res, next) => {
 }
 
 const errorHandeler = (err, req, res, next) => {
+    console.log2(err);
     res.statusMessage = err.message || messages.UNKNOWN_ERROR
     res.status(err.status || httpStatus.INTERNAL_SERVER_ERROR);
     res.json(err)
 }
 
+const logInit = ()=>{
+    console.log2 = common.log
+}
+
 module.exports = {
     doneInit,
     catch404,
-    errorHandeler
+    errorHandeler,
+    logInit
 }

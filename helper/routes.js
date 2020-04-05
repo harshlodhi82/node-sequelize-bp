@@ -4,8 +4,8 @@ const USER_ROUTES = {
 }
 
 
-//** Main Route */
 
+//** Main Route */
 const routes = {
     DEFAULT: '/',
     USER: USER_ROUTES
